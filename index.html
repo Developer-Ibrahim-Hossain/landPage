@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="shortcut icon" href="media/profile picture.png" type="image/x-icon">
+    
+    <link rel="stylesheet" href="style.css">
+    <title>Travel Landing Page</title>
+</head>
+<body>
+    <!-- Tutorial link: https://www.google.com/search?q=how+to+set+background+video+in+a+webpage&oq=how+to+set+background+video+in+a+webpage&aqs=chrome..69i57j0i22i30l2.21902j0j7&sourceid=chrome&ie=UTF-8#kpvalbx=_TeVZYcnLJ_3Cz7sP2YCQqAo18 -->
+    <section class="content-container">
+        
+    <section class="showcase">
+        <header>
+            <h2 class="logo" id="home">Travel <small class="sm">__Ibrahim hossain</small></h2>
+            <div class="toggle"></div>
+        </header>
+
+        <video src="media/Pexels Videos 2169880.mp4" muted loop autoplay></video>
+
+        <div class="overlay"></div>
+
+        <div class="text" id="blog">
+            <h2>Never Stop</h2>
+            <h3>Exploring The World</h3>
+            <p>Travel is essential for temporary relief from extra work stress and anxiety. The practical aspect of travel is that people can enjoy the taste of innovation and gain various experiences. Then this experience and journey becomes a memory and makes smile or nostalgic. It is possible to learn about people and their culture through travel. Many unknown things become known. When the busy life of the city, anxiety, frustration, fatigue make life miserable, then the view of mountains, clouds, waterfalls brings peace to the mind. People who like to travel, always prefer quiet, secluded places. Mountains can be an interesting place for travel. One such beautiful place is Sajek Valley in Bangladesh. Sajek Valley is famous for its natural beauty and is also known as the Queen of Hills and Roof of Rangamati. Where the mind and soul get the feeling of heaven. There is no human noise but there is the melody of birds, the flow of fountains. Sometimes rows of clouds are running, sometimes playing hide and seek. This scene creates a different kind of love.</p>
+            <p>If you ask me where I wanna Travel first? My answer will be Sajak With my sweetheart.</p>
+            <a class="explore" href="https://www.facebook.com/profile.php?id=100030141795262&sk=photos" target="_blank">Explore</a>
+        </div>
+
+        <ul class="social" id="contact">
+           <li><a href="https://www.facebook.com/profile.php?id=100030141795262" target="_blank"><i class="fab fa-facebook fa-3x"></i></a></li>
+           <li><a href="https://www.linkedin.com/in/developer-ibrahim-hossain/" target="_blank"><i class="fab fa-linkedin fa-3x"></i></i></a></li>
+           <li><a href="https://www.instagram.com/developeribrahimhossain/" target="_blank"><i class="fab fa-instagram fa-3x"></i></a></li>
+        </ul>
+
+    </section>
+    <footer><p>&copy; <span class="d-0">All Right Reserved|</span> <span class="break"><small>Ibrahim Hossain</small></span></p></footer>
+    
+    <div class="menu">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Destination</a></li>
+            <li><a href="https://www.pexels.com/search/nature/" target="_blank">Blog</a></li>
+            <li><a href="#contact">contact</a></li>
+        </ul>
+    </div>
+    </section>
+
+    <script>
+        const toggle = document.querySelector('.toggle')
+        const showcase = document.querySelector('.showcase')
+
+        toggle.addEventListener('click', () => {
+            toggle.classList.toggle('active')
+            showcase.classList.toggle('active')
+        })
+    </script>
+</body>
+</html>
